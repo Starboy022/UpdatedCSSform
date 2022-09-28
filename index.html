@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Employee Form
+        </title>
+        <style>
+        div{
+            margin-bottom: 20px;
+        }
+        .center{
+            text-align: left;
+        }
+        .col{
+            border-color: rgb(0, 174, 255);
+        }
+        h1{
+            background-color: rgb(232, 201, 167);
+        }
+        .col{
+            background-color: rgb(255, 243, 132);
+        }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:rgb(0, 93, 186)">Employee form</h1>
+        <fieldset class="col">
+            <legend><b style="font-size:20px;">Form</b></legend>
+            <form class="col">
+                <div class="center">
+                <label>Enter your name:</label>
+                <input type="text" id="name">
+                </div>
+
+                <div class="center">   
+                <label>Enter your department:</label>
+                <input type="text" id="dept">
+                </div>
+
+                <div class="center">
+                <label>Tell us about yourself:</label>
+                <textarea cols="30" rows="5"></textarea>
+                </div>
+                
+                <div class="center">
+                <label>do you exercise?</label>
+                <input type="radio" name="radio">Yes
+                <input type="radio" name="radio">No
+                </div>
+
+                <div class="center">
+                <label>What kinda movies you like?</label>
+                <select>
+                    <option>Comedy</option>
+                    <option>Horror</option>
+                    <option>Action</option>
+                </select>
+                </div>
+
+                <div class="center">
+                <label>How do you read?</label>
+                <input type="checkbox" name="chk">Phone
+                <input type="checkbox" name="chk">Book
+                <input type="checkbox" name="chk">Website
+                <input type="checkbox" name="chk">Audio Book
+                </div>
+
+                <div class="butcol">
+                <input type="submit" value="Submit">
+                <input type="reset">
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>
